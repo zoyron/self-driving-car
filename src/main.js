@@ -1,6 +1,6 @@
 const canvas = document.getElementById("myCanvas");
 canvas.height = window.innerHeight;
-canvas.width = 250;
+canvas.width = 200;
 
 /* since we are about to draw cars and other things in 2D in this
  project, we need to get the context of the canvas. 

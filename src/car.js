@@ -16,7 +16,7 @@ class Car {
   }
   draw(ctx) {
     ctx.beginPath();
-    ctx.rect(this.x - this.widht / 2, this.y - this.height / 2, this.widht, this.height);
+    ctx.rect(this.x - (this.widht / 2), this.y - (this.height / 2), this.widht, this.height);
     ctx.fill();
   }
 }
