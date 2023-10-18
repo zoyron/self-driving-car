@@ -9,6 +9,7 @@ respectively.
 */
 class Car {
   constructor(x, y, width, height) {
+    // x is the variable value passed through the function, this.x is the variable inside of the constructor, these 2 are two different variables, think of one as x and another as coordinateX, totally different variables.
     this.x = x;
     this.y = y;
     this.widht = width;
